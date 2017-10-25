@@ -93,6 +93,13 @@ p {
 	margin-right: 500px;
 	font-weight: 900;
 }
+.button-title:hover {
+	cursor: pointer;
+}
+.fixed-a:hover{
+	color: #18bc9c;
+	cursor: pointer;
+}
 
 /*PRIMERA SECCION*/
 #principal-section {
@@ -274,7 +281,7 @@ p {
 	bottom: 60px;
 	padding: 5px;
 }
-
+/*FORMULARIO*/
 form {
 	margin-top: -20px;
 }
@@ -394,6 +401,9 @@ form p {
 #final-section a{
 	text-decoration: none;
 	color: #18bc9c;
+}
+#final-section a:hover {
+	text-decoration: underline;
 }
 #final-section h6 {
 	margin-bottom: 10px;

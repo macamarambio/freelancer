@@ -1,5 +1,6 @@
 /*CLASES REUTILIZABLES*/
- * {
+
+* {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -39,10 +40,12 @@ body {
 }
 
 .text-uppercase {
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 
+
 /*TEXT STYLE*/
+
 h1{
 	font-size: 76px;
 	font-family: 'Montserrat', sans-serif;
@@ -70,38 +73,46 @@ p {
 	line-height: 30px;
 }
 
+
 /* MENU FIJO */
+
 .fixed {
 	position: fixed;
 	top: 0;
-  	box-shadow: 0px 1px 8px #888888;
-  	background-color: #2c3e50;
-  	color: #FFF;
-  	height: 100px;	
-  	width: 100%;
-  	font-family: 'Montserrat', sans-serif;
-  	padding: 30px 120px;
-  	font-weight: 700;
-  	z-index:100;
+	box-shadow: 0px 1px 8px #888888;
+	background-color: #2c3e50;
+	color: #FFF;
+	height: 100px;	
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	padding: 30px 120px;
+	font-weight: 700;
+	z-index:100;
 }
+
 .fixed a{
 	margin-right: 15px;
 	font-size: 16px;
 }
+
 .fixed a:first-child{
 	font-size: 32px;
 	margin-right: 500px;
 	font-weight: 900;
 }
+
 .button-title:hover {
 	cursor: pointer;
 }
+
 .fixed-a:hover{
 	color: #18bc9c;
 	cursor: pointer;
 }
 
+
 /*PRIMERA SECCION*/
+
 #principal-section {
 	margin-top: 90px;
 	padding-bottom: 20px;
@@ -125,10 +136,11 @@ p {
 
 .star {
 	max-width: 250px;
-    border: 3px solid #FFF;
-    margin: 25px auto 30px;
-    padding: 0;
+	border: 3px solid #FFF;
+	margin: 25px auto 30px;
+	padding: 0;
 }
+
 .fa-star {
 	color: #FFF;
 	background-color: #18bc9c;
@@ -143,6 +155,8 @@ p {
 	margin-top: -35px;
 }
 
+
+
 /*SEGUNDA SECCION*/
 #portfolio-section {
 	text-align: center;
@@ -154,12 +168,14 @@ p {
 	margin-bottom: 30px;
 	color: #212529;
 }
+
 #portfolio-section .star {
 	max-width: 250px;
-    border: 3px solid #2c3e50;
-    margin: 25px auto 30px;
-    padding: 0;
+	border: 3px solid #2c3e50;
+	margin: 25px auto 30px;
+	padding: 0;
 }
+
 #portfolio-section .fa-star {
 	color: #2c3e50;
 	background-color: #FFF;
@@ -169,20 +185,26 @@ p {
 	bottom: 60px;
 	padding: 5px;
 }
+
+/*GALERIA DE IMAGENES*/
 .photo-gallery {
 	margin: -40px 85px;
 }
+
 #portfolio-section div {
 	display: inline-block;
 	margin-right: 30px;
 	margin-bottom: 30px;
 }
+
 #portfolio-section img {
 	width: 350px;
 	height: auto;
 }
 
+
 /*TERCERA SECCION*/
+
 #about-section {
 	padding: 60px;
 	margin-bottom: 0;
@@ -191,18 +213,22 @@ p {
 	color: #FFF;
 	text-align: center;
 }
+
 #about-section h2 {
 	margin-bottom: 15px;
 }
+
 #about-section p {
 	margin-top: 0;
 }
+
 .star {
 	max-width: 250px;
-    border: 3px solid #FFF;
-    margin: 25px auto 30px;
-    padding: 0;
+	border: 3px solid #FFF;
+	margin: 25px auto 30px;
+	padding: 0;
 }
+
 .fa-star {
 	color: #FFF;
 	background-color: #18bc9c;
@@ -219,16 +245,18 @@ p {
 	margin-left: 260px;
 	margin-top: -20px;
 }
+
 .column {
 	display: inline-block;
 	text-align: left;
 	padding-right: 15px;
-    padding-left: 15px;
+	padding-left: 15px;
 	width: 380px;
 	height: auto;
 	margin-top: 0;
 	float: left;
 }
+
 .button {
 	display: inline-block;
 	margin-top: 25px;
@@ -243,6 +271,7 @@ p {
 	top: 180px;
 	right: 515px;
 }
+
 .fa-download {
 	padding-right: 5px;
 }
@@ -257,21 +286,26 @@ p {
 	border: 2px solid #00AEB6;
 }
 
+
 /*CUARTA SECCION*/
+
 #contact {
 	padding-top: 50px;
 	text-align: center;
 	height: 900px;
 }
+
 #contact h2 {
 	color: #212529;
 }
+
 #contact .star {
 	max-width: 250px;
-    border: 3px solid #2c3e50;
-    margin: 25px auto 30px;
-    padding: 0;
+	border: 3px solid #2c3e50;
+	margin: 25px auto 30px;
+	padding: 0;
 }
+
 #contact .fa-star {
 	color: #2c3e50;
 	background-color: #FFF;
@@ -281,23 +315,28 @@ p {
 	bottom: 60px;
 	padding: 5px;
 }
+
 /*FORMULARIO*/
+
 form {
 	margin-top: -20px;
 }
+
 form input {
 	background-color: transparent;
-    border: none;
-    outline: 0;
-    font-family: 'Lato', sans-serif;
-    display: inline-block;
-    width: 720px;
-    font-size: 20px;
-    color: #848E9A;
+	border: none;
+	outline: 0;
+	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	width: 720px;
+	font-size: 20px;
+	color: #848E9A;
 } 
+
 form input:last-child {
 	height: 100px;
 }
+
 form p {
 	margin-top: 30px;
 	margin-bottom: 0;
@@ -345,6 +384,7 @@ form p {
 	outline: 0,5px solid #009477;
 }
 
+
 /*ULTIMA SECCION*/
 
 #final-section {
@@ -354,57 +394,69 @@ form p {
 	color: #FFF;
 	text-align: center;
 }
+
 .final-footer { 
 	width: 100%;
 }
+
 #final-section h3 {
 	font-family: 'Montserrat', sans-serif;
 }
+
 .final-container {
 	margin-right: 70px;
 	display: inline-block;
 	max-width: 380px;
 	text-align: center;
 }
+
 .final-container:first-child {
 	margin-left: 180px;
 }
+
 #text-location {
 	position: relative;
 	bottom: 30px;
 }
+
 #text-icon {
 	position: relative;
 	bottom: 55px;
 	left: 25px;
 }
+
 .icon {
 	font-size: 20px;
 	text-align: center;
 	vertical-align: middle;
-    width: 50px;
-    height: 50px;
-    border: 2px solid #fff;
-    border-radius: 100%;
-    display: inline-block;
-    margin-right: 5px;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #fff;
+	border-radius: 100%;
+	display: inline-block;
+	margin-right: 5px;
 }
+
 .icon:hover {
 	cursor: pointer;
 	background-color: #FFF;
 	color: #18bc9c;
 }
+
 .final-container .fa {
 	position: relative;
 	top: 10px;
 }
+
 #final-section a{
 	text-decoration: none;
 	color: #18bc9c;
 }
+
 #final-section a:hover {
 	text-decoration: underline;
 }
+
 #final-section h6 {
 	margin-bottom: 10px;
 }
